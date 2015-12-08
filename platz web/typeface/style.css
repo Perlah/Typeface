@@ -1,0 +1,43 @@
+body{
+ background-color: #1A1A1A;
+}
+nav {
+	border: 1px solid white;
+	text-align: center;
+	color: white;
+	width: 110px;
+	height: 100px;
+	position: relative;
+	top: 10%;
+	left: 90%;
+}
+nav ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 3px;
+	word-spacing: 1em;
+	font-size: 17px;
+	font-family:Futura, 'Trebuchet MS', Arial, sans-serif;
+}
+h1{
+	text-align: center;
+	font-size: 90pt;
+	color: white;
+	font-family: sans-serif;
+}
+a:link, a:hover, a:active, a:visited {
+	color:white;
+	background-color: transparent;
+    text-decoration:none;
+}
+p{
+	font-family: Futura, 'Trebuchet MS', Arial, sans-serif;
+	font-size: 15px;
+	color: white;
+	text-align: center;
+}
+
+.box{
+	border: 1px solid #FFF;
+	border-color: white;
+}
