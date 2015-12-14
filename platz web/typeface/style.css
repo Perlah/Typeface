@@ -1,46 +1,43 @@
 body{
- background-color: #1A1A1A;
- background: url(../images/floor.jpg) scroll;
+ background-color: #262626;
 }
 nav {
 	display: block;
 	margin: 0;
-	padding-left: 5%;
-	padding-right: 5%;
-	padding-top: 20px;
-	padding-bottom: 0;
 	background-color: black;
 	text-align: left;
 	color: white;
 	height: 70px;
-	width: auto;
 	position: relative;
 	top: 20%;
 }
 nav ul {
 	list-style-type: none;
 	margin: 0;
-	padding:0;
+	padding-left: 90px;
+	padding-top: 20px;
+	padding-right: 20px;
+	padding-bottom: 0;
 	word-spacing: 20em;
 	font-size: 20px;
 	font-family:Futura, 'Trebuchet MS', Arial, sans-serif;
 }
 nav li{
 	display: inline;
-	word-spacing: 0em;
+	word-spacing: 1em;
 	
 }
 
 h1{
 	position: relative;
+	top: 120px;
+	left: 5px;
 	text-align: center;
-	top: 10%;
-	left: 5%;
 	font-size: 90pt;
 	color: white;
-	font-family: sans-serif;
+	font-family: 'platz_stencilregular';
 	margin: 0;
-	padding: 0;
+	padding: 2px;
 }
 a:link, a:hover, a:active, a:visited {
 	color:white;
@@ -55,16 +52,15 @@ p{
 }
 
 .box{
-	border: 1px solid white;
-	background-color: white;
-	width: 800px;
-	height: 800px;
+	border: 1px solid #b3b3b3;
+	background-color: #b3b3b3;
+	width: 790px;
+	height: 680px;
 	padding: 3px;
 	margin: 3px;
-	opacity: 0.4;
 	position: relative;
-	top: 50%;
-	left: 30%;
+	top: 130px;
+	left: 430px;
 }
 .wrapper circle{
 	position: relative;
@@ -72,13 +68,13 @@ p{
 .circle1{
 	width: 10px;
 	height: 10px;
-	border: 1px solid #DAE0E6;
+	border: 1px solid #414345; /*#DAE0E6*/
 	border-radius: 50%;
-	background-color: #DAE0E6;
+	background-color: #414345;
 	padding: 2px;
 	position: absolute;
-	top: 107%;
-	left: 50%;
+	top: 600px;
+	left: 300px;
 }
 .circle2{
 	width: 10px;
@@ -88,11 +84,56 @@ p{
 	background-color: #414345;
 	padding: 2px;
 	position: absolute;
-	top: 107%;
-	left: 52%;
+	top: 600px;
+	left: 330px;
+}
+.circle3{
+	width: 10px;
+	height: 10px;
+	border: 1px solid #414345;
+	border-radius: 50%;
+	background-color: #414345;
+	padding: 2px;
+	position: absolute;
+	top: 600px;
+	left: 360px;
+}
+.circle4{
+	width: 10px;
+	height: 10px;
+	border: 1px solid #414345;
+	border-radius: 50%;
+	background-color: #414345;
+	padding: 2px;
+	position: absolute;
+	top: 600px;
+	left: 390px;
 }
 #white{
 	position:absolute;
-	top: 43%;
-	left: 37%;
+	top: 60px;
+	left: 110px;
+	padding-left: 5px;
+	padding-right: 5px;
+}
+#num{
+	position:absolute;
+	top: 60px;
+	left: 70px;
+	padding-left: 5px;
+	padding-right: 5px;
+}
+#punct{
+	position:absolute;
+	top: 60px;
+	left: 70px;
+	padding-left: 5px;
+	padding-right: 5px;
+}
+#whole{
+	position:absolute;
+	top: 60px;
+	left: 70px;
+	padding-left: 5px;
+	padding-right: 5px;
 }
