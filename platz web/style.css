@@ -1,4 +1,4 @@
-
+@import url(../platzStencil/stylesheet.css);
 
 body{
  background-color: #1A1A1A;
@@ -12,6 +12,7 @@ nav {
 	height: 70px;
 	position: relative;
 	top: 20%;
+	z-index: 1;
 }
 nav ul {
 	list-style-type: none;
@@ -31,10 +32,9 @@ nav li{
 }
 h1{
 	text-align: center;
-	font-size: 90pt;
-	font-family: 'platz_stencilregular';
+	font-size: 100pt;
+	font-family:'platz_stencilregular';
 	color: white;
-	font-family: sans-serif;
 }
 a:link, a:hover, a:active, a:visited {
 	color:white;
@@ -72,4 +72,10 @@ section{
 	top: 26px;
 	left: 29%;
 	width: 720px;
+}
+
+img{
+	position: relative;
+	top:80px;
+	left:38%;
 }

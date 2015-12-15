@@ -45,13 +45,14 @@ a:link, a:hover, a:active, a:visited {
 		text-align: center;
 		font-size: 90px;
 		font-family: 'platz_stencilregular';
-		color: white;
+		color: #ffffff;
 		position: relative;
-		top: 150px;
-		left: 20%;
+		top: 115px;
+		left: -3px;
 		width: 1290px;
 		height: 400px;
 		padding-top: 0px;
+		z-index: -1;
 		/*border: 1px solid blue;*/
 }
 
@@ -63,14 +64,15 @@ a:link, a:hover, a:active, a:visited {
 	padding: 0;
 	margin: 0;
 	position: absolute;
-	top: 0;
+	top: 20px;
+	z-index: -1;
 }
 #paul{
 	width: 1100px;
 	height: 400px;
 	position: absolute;
 	top: 95px;
-	left: 2390px;
+	left: 1950px;
 }
 #simple p{
 	width: 1300px;
@@ -78,24 +80,33 @@ a:link, a:hover, a:active, a:visited {
 	text-align: center;
 	font-size: 90px;
 	font-family: 'platz_stencilregular';
-	color: white;
+	color: red;
 	position: absolute;
-	top: 95px;
-	left: 3690px;
+	top: 115px;
+	left: 3590px;
+	z-index: -1;
 }
 
 #red img{
-	z-index: -1;
+	z-index: -2;
 	position: absolute;
 	top: 5px;
-	left: 3690px;
+	left: 3590px;
 }
 
 img{
-	z-index: -1;
+	z-index: -2;
 	position: absolute;
 	top: 5px;
-	left: 2190px;
+	left: 1800px;
+}
+
+#blue img{
+	z-index: -2;
+	position: absolute;
+	top: 5px;
+	left: 15px;
+	
 }
 /*.box{
 	height: 70px;
