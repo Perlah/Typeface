@@ -1,5 +1,7 @@
 var hover = false;
 
+$("#color").hide();
+
 $("#image").mouseenter(function(){
         $("#image").hide();
         $("#color").show();

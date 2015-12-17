@@ -16,7 +16,8 @@ nav ul {
 	list-style-type: none;
 	margin: 0;
 	padding-left: 90px;
-	padding: 20px;
+	padding-top: 20px;
+	padding-right: 20px;
 	padding-bottom: 0;
 	word-spacing: 20em;
 	font-size: 20px;
@@ -28,16 +29,16 @@ nav li{
 }
 
 h1{
-	position: relative;
-	top: 80px;
-	left: 3px;
+	position: absolute;
+	top: 150px;
+	left: 580px;
 	text-align: center;
 	font-size: 90pt;
 	color: white;
 	font-family:'platz_stencilregular';
 	font-weight: normal;
     font-style: normal;
-	margin: 0;
+	margin: 5px;
 	padding: 2px;
 }
 
@@ -61,7 +62,7 @@ p{
 	padding: 3px;
 	margin: 3px;
 	position: relative;
-	top: 130px;
+	top: 230px;
 	left: 430px;
 }
 .wrapper {

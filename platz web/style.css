@@ -63,19 +63,13 @@ section{
 }
 #color{
 	position: relative;
-	top: 26px;
+	top: 90px;
 	left: 21%;
 	width: 720px;
 }
 #image{
 	position: relative;
-	top: 26px;
+	top: 90px;
 	left: 29%;
 	width: 720px;
-}
-
-img{
-	position: relative;
-	top:80px;
-	left:38%;
 }
